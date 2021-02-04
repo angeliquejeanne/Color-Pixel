@@ -7,7 +7,456 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="palette">
+        <div class="pixel" style="background-color: red" onclick="changerCouleurPinceau('red')"></div>
+        <div class="pixel" style="background-color: yellow" onclick="changerCouleurPinceau('yellow')"></div>
+        <div class="pixel" style="background-color: black" onclick="changerCouleurPinceau('black')"></div>
+        <div class="pixel" style="background-color: blue" onclick="changerCouleurPinceau('blue')"></div>
+        <div class="pixel" style="background-color: green" onclick="changerCouleurPinceau('green')"></div>
+
+    </div>
+    <div id="canvas">
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+        <div class="ligne">
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+            <div class="pixel" onclick="colorierPixel(this)"></div>
+        </div>
+    </div>   
 
 <script src="script.js"></script>    
 </body>
